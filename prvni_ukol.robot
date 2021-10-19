@@ -10,4 +10,4 @@ Prvni test pozitivní
 
 
 Prvni test negativní
-    run     help hello
+    run     help ahoj
