@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.1 (Python 3.10.0 on darwin)" generated="20211019 15:24:12.425" rpa="false" schemaversion="2">
+<suite id="s1" name="Prvni" source="/Users/mariansopoliga/PycharmProjects/Prvni projekt/prvni.robot">
+<test id="s1-t1" name="Prvni test pozitivní">
+<kw name="Run" library="OperatingSystem">
+<arg>help</arg>
+<doc>Runs the given command in the system and returns the output.</doc>
+<msg timestamp="20211019 15:24:12.475" level="INFO">Running command 'help 2&gt;&amp;1'.</msg>
+<status status="PASS" starttime="20211019 15:24:12.471" endtime="20211019 15:24:12.477"/>
+</kw>
+<status status="PASS" starttime="20211019 15:24:12.471" endtime="20211019 15:24:12.477"/>
+</test>
+<test id="s1-t2" name="Prvni test negativní">
+<kw name="Run" library="OperatingSystem">
+<arg>help ahoj</arg>
+<doc>Runs the given command in the system and returns the output.</doc>
+<msg timestamp="20211019 15:24:12.480" level="INFO">Running command 'help ahoj 2&gt;&amp;1'.</msg>
+<status status="PASS" starttime="20211019 15:24:12.478" endtime="20211019 15:24:12.482"/>
+</kw>
+<status status="PASS" starttime="20211019 15:24:12.478" endtime="20211019 15:24:12.482"/>
+</test>
+<status status="PASS" starttime="20211019 15:24:12.427" endtime="20211019 15:24:12.483"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="Prvni">Prvni</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
